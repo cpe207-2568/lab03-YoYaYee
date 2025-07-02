@@ -1,0 +1,69 @@
+.font{
+  font-family: "WDXL Lubrifont SC", sans-serif;
+  text-decoration: none;
+}
+.sidebar {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .sidebar {
+        width: 280px;
+    }
+}
+
+.round-left{
+    height: 150px;
+    width: 150px;
+    object-fit: cover; 
+    margin-right: auto;    
+    border-top-left-radius: 15px; 
+    border-bottom-left-radius: 15px;
+}
+.round-right{
+    height: 150px;
+    width: 150px;
+    object-fit: cover; 
+    margin-left: auto;    
+    border-top-right-radius: 15px; 
+    border-bottom-right-radius: 15px;
+}
+
+.bdskill{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 15px; 
+}
+
+.cardsha{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); 
+}
+
+.setflex{
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    margin-left: auto ; 
+    margin-right: auto;
+}
+
+.flexgall {
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.nav-link {
+    transition: transform 0.2s ease-in-out; /* 0.2s คือระยะเวลาในการขยับ, ease-in-out คือจังหวะการเคลื่อนที่ */
+}
+
+.nav-link:hover {
+    /* เมื่อเมาส์ชี้ไปที่ nav-link */
+    transform: translateX(7.5px);/* ขยับไปทางขวา 5px */
+}
+
+/* ของ link active */
+.nav-link.active {
+    transition: transform 0.2s ease-in-out;
+}
+
+.nav-link.active:hover {
+    transform: translateX(5px); /* ขยับไปทางขวา 5px */
+}
